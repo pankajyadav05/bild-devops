@@ -47,23 +47,23 @@ Create and deploy a simple AWS infrastructure using AWS CDK and SST. The task in
 
 ## Project Structure
 
+```
 project-root/
 ├── bin/
-│ ├── cdk.js
+│   └── cdk.js
 ├── src/
-│ ├── signup.js
-│ ├── login.js
-│ └── utils.js
+│   ├── signup.js
+│   ├── login.js
+│   └── utils.js
 ├── lib/
-│ └── cdk-stack.js
-├── bin/
-│ └── cdk.js
+│   └── cdk-stack.js
 ├── stacks/
-│ ├── MyStack.js
+│   └── MyStack.js
 ├── package.json
 ├── cdk.json
 ├── sst.config.js
 └── .env
+```
 
 ## Usage
 
