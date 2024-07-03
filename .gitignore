@@ -9,9 +9,6 @@ cdk.out
 # AWS credentials
 .aws/
 
-# Environment variables
-.env
-
 # Local IDE configurations
 .vscode/
 .idea/
