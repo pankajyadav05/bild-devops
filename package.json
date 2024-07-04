@@ -9,6 +9,7 @@
   "dependencies": {
     "aws-cdk-lib": "^2.147.3",
     "aws-sdk": "^2.947.0",
+    "axios": "^1.7.2",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^8.5.1",
     "sst": "^2.43.3",

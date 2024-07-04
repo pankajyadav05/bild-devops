@@ -16,7 +16,29 @@
 
 # Deploy Serverless Authentication API using AWS CDK and SST
 
-Create and deploy a simple AWS infrastructure using AWS CDK and SST. The task involves creating a DynamoDB table, deploying two Lambda functions (signup and login), and setting up an API Gateway.
+Create and deploy a simple AWS infrastructure using AWS CDK and SST. The task involves:
+
+1. Define the DynamoDB table
+
+2. Create Lambda functions
+
+3. Set up API Gateway:
+
+   - Define the API Gateway
+   - Create routes for the Lambda functions
+
+4. Deploy the first stack:
+
+   - Configure & Deploy the first stack in the SST & CDK configuration file
+
+5. Create the second stack:
+
+   - Create a new stack file
+   - Retrieve the API URL from the first stack's output
+   - Store the API URL in an environment variable named `API_URL`
+
+6. Deploy the second stack:
+   - Configure & Deploy the second stack in the SST & CDK configuration file
 
 ## Features
 
@@ -52,6 +74,7 @@ project-root/
 ├── bin/
 │   └── cdk.js
 ├── src/
+│   ├── auth.js
 │   ├── signup.js
 │   ├── login.js
 │   └── utils.js
