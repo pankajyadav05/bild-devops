@@ -14,7 +14,7 @@
 
 ---
 
-# Deploy Serverless Authentication API using AWS CDK and SST
+# Deploy Serverless Authentication API using AWS CDK
 
 Create and deploy a simple lambda function using AWS CDK.
 
