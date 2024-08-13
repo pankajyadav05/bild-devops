@@ -25,7 +25,6 @@ project-root/
 ├── bin/
 │   └── cdk.js
 ├── src/
-│   ├── auth.js
 │   ├── signup.js
 │   ├── login.js
 │   └── utils.js
